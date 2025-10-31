@@ -1,0 +1,47 @@
+echo "
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.*
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+build/
+*.log
+*.bak
+*.swp
+
+# Byte-compiled
+*.pyc
+__pycache__/
+
+# Migrations cache
+*.py~
+" > .gitignore
+
+# SSL certs
+certs/
